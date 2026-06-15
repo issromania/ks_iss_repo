@@ -1,2 +1,2 @@
-network --hostname=www4.spacescience.ro
+network --hostname=sec.spacescience.ro
 network --activate --onboot=yes --device=link --bootproto=static --ip=46.243.114.233 --netmask=255.255.255.128 --gateway=46.243.114.254 --nameserver=46.243.114.227,46.243.114.254,8.8.8.8 --ipv4-dns-search spacescience.ro
