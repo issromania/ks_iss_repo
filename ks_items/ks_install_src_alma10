@@ -1,10 +1,10 @@
 
 # Install from an installation tree on a remote server
-url --url=http://monitor.spacescience.ro/mirrors/almalinux/9/BaseOS/x86_64/os/
+url --url=http://monitor.spacescience.ro/mirrors/almalinux/10/BaseOS/x86_64/os/
 
 ## Add basic repositories for os and updates
-repo --name=BaseOS    --baseurl=http://monitor.spacescience.ro/mirrors/almalinux/9/BaseOS/x86_64/os/
-repo --name=AppStream --baseurl=http://monitor.spacescience.ro/mirrors/almalinux/9/AppStream/x86_64/os/
-repo --name=CRB       --baseurl=http://monitor.spacescience.ro/mirrors/almalinux/9/CRB/x86_64/os/
-repo --name=epel      --baseurl=http://monitor.spacescience.ro/mirrors/epel/9/Everything/x86_64/
+repo --name=BaseOS    --baseurl=http://monitor.spacescience.ro/mirrors/almalinux/10/BaseOS/x86_64/os/
+repo --name=AppStream --baseurl=http://monitor.spacescience.ro/mirrors/almalinux/10/AppStream/x86_64/os/
+repo --name=CRB       --baseurl=http://monitor.spacescience.ro/mirrors/almalinux/10/CRB/x86_64/os/
+repo --name=epel      --baseurl=http://monitor.spacescience.ro/mirrors/epel/10/Everything/x86_64/
 
